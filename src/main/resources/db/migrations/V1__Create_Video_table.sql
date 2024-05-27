@@ -1,0 +1,5 @@
+CREATE TABLE video (
+    id BIGSERIAL PRIMARY KEY,
+    url VARCHAR(255) NOT NULL,
+    status VARCHAR(50)
+);
