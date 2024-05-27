@@ -1,0 +1,2 @@
+ALTER TABLE video
+ADD COLUMN title VARCHAR(255);
