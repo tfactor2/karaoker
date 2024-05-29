@@ -1,0 +1,3 @@
+ALTER TABLE video
+ADD COLUMN error_message VARCHAR(255),
+ADD COLUMN retries INT DEFAULT 0;
